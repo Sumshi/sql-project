@@ -1,0 +1,15 @@
+create table pizza(
+
+pizza_id INT primary key,
+pizza_cost INT NOT NULL,
+pizza_quantity INT NOT NULL
+	
+);
+
+insert into pizza(pizza_id,pizza_cost,pizza_quantity)values(19,590,90);
+
+delete from pizza where pizza_id=1;
+
+select* from pizza;
+
+update pizza set pizza_id=133,pizza_cost=500 where pizza_quantity=10;
